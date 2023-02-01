@@ -20,7 +20,7 @@ This project explores words used in tweets put out by members of the United Stat
 
 We used Twitter's API, with elevated access, to gain access to almost 3 million tweets posted in the past 30 days from all 535 legislators in the US Congress. We then extracted key words through spacy, excluding certain words (such as prepositions), then grouped them by Twitter handle and then counted the 50 most frequent words used by a given legislator. We found significant evidence for our hypotheses, with there being significant variations in the language used by members of different parties. Some of this difference was predicted in our hypotheses but we also find additional dimensions that we had not predicted. 
 
-The first part of this page highlights our group's motivations to choose this topic. Next, we formally define key questions and our hypotheses that legislators from the same party will use similar words, with Democrats using more rights-based language and Republicans using more traditional-based language. Then, we explain our data collection process, followed by our data analysis process. Lastly, we highlight our findings and conclusion.   
+The first part of this page highlights our group's motivations to choose this topic. Next, we define key questions and our hypotheses that legislators from the same party will use similar words, with Democrats using more rights-based language and Republicans using more traditional-based language. Then, we explain our data collection process, followed by our data analysis process. Lastly, we highlight our findings and conclusion.   
 
 ## Motivations
 
@@ -118,11 +118,9 @@ This is a snippet of what our csv file looks like. On the far left is Rep. Austi
 
 Because the CSV files were too large to upload to GitHub, we linked the grouped.csv and tweets.csv files here.
 
-grouped.csv:
-https://drive.google.com/file/d/1dQA9-0dUVCP86vxsk16WZewj3J7u6yGM/view?usp=drive_web
+[grouped.csv](https://drive.google.com/file/d/1dQA9-0dUVCP86vxsk16WZewj3J7u6yGM/view?usp=drive_web)
 
-tweets.csv:
-https://drive.google.com/file/d/1PgatNy2y8jExcTvWxDlkcaUwN9YTWHFV/view?usp=drive_web
+[tweets.csv](https://drive.google.com/file/d/1PgatNy2y8jExcTvWxDlkcaUwN9YTWHFV/view?usp=drive_web)
 
 ## Findings
 We visualise our results through bar graphs and word clouds.
