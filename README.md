@@ -7,12 +7,13 @@
     - Code Explanation
     - CSV Files
 5. [Findings](https://github.com/maiahalle/DS105-Project/blob/main/README.md#findings)
-6. [Conclusion](https://github.com/maiahalle/DS105-Project/blob/main/README.md#conclusion)
-7. [Contributions](https://github.com/maiahalle/DS105-Project/blob/main/README.md#exploratory-data-analysis)
+6. [Limitations](https://github.com/maiahalle/DS105-Project/blob/main/README.md#limitations)
+7. [Conclusion](https://github.com/maiahalle/DS105-Project/blob/main/README.md#conclusion)
+8. [Contributions](https://github.com/maiahalle/DS105-Project/blob/main/README.md#exploratory-data-analysis)
     - Maia
     - Amara
     - Sarmad
-8. [Bibliograpy](https://github.com/maiahalle/DS105-Project/blob/main/README.md#bibliography)
+9. [Bibliograpy](https://github.com/maiahalle/DS105-Project/blob/main/README.md#bibliography)
 
 ## Abstract
 
@@ -156,6 +157,12 @@ Moreover, another thing we had not considered was the potential usage of languag
 This usage of language may also tell us something about the users of Twitter. Perpetuated hate speech and echo chambers have been an issue on Twitter for quite some time (Frenkel & Conger, 2022), and some expect this to get worse after Elon Musk's recent purchase of Twitter. Is it the nature of Twitter and it's algorithms which cause this and mean that this tactic of attacking the opposition has been deemed most successful by the two main political parties in the US? Or is it perhaps that these politicians are the part of the cause of Twitter's problem? This may be an interesting topic for further research, however, for now, we have found that US politicians generally see this approach as an efficient enough way to rally support for their party that it is one of the most frequent occurences in their tweets.
 
 Despite our overall considerable evidence, our hypotheses are not fully substantiated. We did not find evidence of the Democrats being more likely to use, for example, climate-focused language, nor did we find the Republicans more focused on crime. This suggests that there may be certain policy areas that are more important or perhaps more polarised that legislators feel a greater need to discuss on Twitter. Alternatively, it may simply be that temporal factors play a role here - for example, closer to a climate-focused protest or event, legislators may discuss climate more on Twitter. 
+
+Our final project has a few limitations. FirstlOne additional limitation to our project is that, in order to be replicable, data scientists would need elevated access to Twitter API.  
+
+## Limitations
+
+Our project has a few technical limitations. Firstly, in order to be replicable, data scientists would need elevated access to Twitter API. However, our source code is fully available on our repository. Secondly, we 
 
 
 ## Conclusion
