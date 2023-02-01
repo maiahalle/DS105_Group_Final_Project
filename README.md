@@ -167,13 +167,13 @@ Overall, we saw considerable disparities between the language used by the Democr
 ## Contributions
 
 **Maia:**
-Maia created the code to collect the Twitter dataset showing the 50 most common used words per twitter handles. She also wrote the Index, Motivation, Data Collection, and Bibliography sections of the README.md. Lastly, she created the webpage and added a theme.
+Maia created the code to collect the Twitter dataset showing the 50 most common used words per twitter handles and the code to create the dataframes for the Republican and Democratic Party. She also wrote the Index, Motivation, Data Collection, and Bibliography sections of the README.md. Lastly, she created the repository, webpage and added a theme.
 
 **Amara:**
 Amara analysed the data, transforming it into multiple more easily useable dataframes. She then created some more easily interpretable bar graphs and wordclouds. She interpreted the data and drew conclusions based on our observations.
 
 **Sarmad:**
-Sarmad wrote the Abstract, Motivations, Key Questions & Hypotheses, and Bibliography sections of the README.md, while also copy-editing the rest of it to ensure cohesiveness and consistency. He also did empirical research for all the substantive claims made about the Democrats and Republicans throughout the README.md. Lastly, he converted the README.md to an Index file for webpage creation. 
+Sarmad wrote the Abstract, Motivations, Key Questions & Hypotheses, and Bibliography sections of the README.md, while also copy-editing the rest of it to ensure cohesiveness and consistency. He also did empirical research for all the substantive claims made about the Democrats and Republicans throughout the README.md. Lastly, he converted the README.md to an Index file for webpage creation.
 
 ## Bibliography
 
