@@ -39,7 +39,9 @@ This hypothesis was informed by the fact that the Democratic party is relatively
 
 H2: We hypothesise that Republicans will be more likely to use words such as "family", "border" and "crime". 
 
-We predict this because Republicans are generally known for their emphasis on traditional family values (Gronbeck-Tedesco, 2022), border security (Oliphant & Cerda, 2022), and crime (Gambino & Greve, 2022).
+We predicted this because Republicans are generally known for their emphasis on traditional family values (Gronbeck-Tedesco, 2022), border security (Oliphant & Cerda, 2022), and crime (Gambino & Greve, 2022).
+
+In addition to the above hypotheses, we were open to, and actively looking for any additional phenomena that we may not have predicted, for example other words from a non-ideological lens being common, or certain words being more common during certain time periods. 
 
 ## Data Collection
 
