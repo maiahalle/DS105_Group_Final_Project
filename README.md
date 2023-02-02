@@ -177,7 +177,7 @@ This also raises interesting questions for future research that builds on ours. 
 
 Our project has a few limitations and faced some technical challenges. 
 
-Firstly, in order to be replicable, data scientists would need elevated access to Twitter API, which they may not always have. To mitigate this to some degree, we ensured that our source code is fully available on our repository. 
+Firstly, in order to be replicable, data scientists would need elevated access to Twitter API, which they may not always have. We used elevated access to ensure we were able to access a statistically significant and meaningful number of tweets. To mitigate this to some degree, we ensured that our source code is fully available on our repository. 
 
 Secondly, we ran into a few technical pre-processing errors involving the number of times tweets were retweeted or liked. We found that the number of likes and retweets were identical, suggesting that one of them was incorrect. To verify this, we cross-referenced with actual tweets on Twitter and found that the figures for retweets were accurate but figures for likes were inaccurate. We were unable to diagnose a solution in time for this project, and therefore only used retweets in our analysis. 
 
