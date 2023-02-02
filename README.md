@@ -21,7 +21,7 @@ This project explores words used in tweets put out by members of the United Stat
 
 We used Twitter's API, with elevated access, to gain access to almost 3 million tweets posted in the past 30 days from all 535 legislators in the US Congress. We then extracted key words through spacy, excluding certain words (such as prepositions), then grouped them by Twitter handle and finally counted the 50 most frequent words used by a given legislator. We found significant evidence for our hypotheses, with there being significant variations in the language used by members of different parties. Some of this difference was predicted in our hypotheses but we also find additional dimensions that we had not predicted. 
 
-The first part of this page highlights our group's motivations to choose this topic. Next, we define key questions and our hypotheses that legislators from the same party will use similar words, with Democrats using more rights-based language and Republicans using more traditional-based language. Then, we explain our data collection process, followed by our data analysis process. We then highlight our findings and limitations and then reach our conclusion.   
+The first part of this page highlights our group's motivations to choose this topic. Next, we define key questions and our hypotheses that legislators from the same party will use similar words, with Democrats using more rights-based language and Republicans using more traditions-based language. Then, we explain our data collection process, followed by our data analysis process. We then highlight our findings and limitations and then reach our conclusion.   
 
 ## Motivations
 
@@ -33,9 +33,9 @@ In doing research for this project, we were surprised to learn that such an anal
 
 ## Key Questions and Hypotheses 
 
-H1: We hypothesise that Democrats will be more likely to use words such as "green" and "rights". 
+H1: We hypothesise that Democrats will be more likely to rights-based language 
 
-This hypothesis was informed by the fact that the Democratic party is relatively more focused than Republicans on climate change (Kennedy & Johnson, 2020) and increasing rights for groups such as racial and sexual minorities (Jones, 2020), respectively. 
+This hypothesis was informed by the fact that the Democratic party is relatively more focused than Republicans on increasing rights for groups such as racial and sexual minorities (Jones, 2020), respectively. 
 
 H2: We hypothesise that Republicans will be more likely to use words such as "family", "border" and "crime". 
 
@@ -163,13 +163,15 @@ In order to further explore this tactic of politicians tearing down their opposi
 
 ![dem_trump_2022](https://user-images.githubusercontent.com/114494959/216338431-d8b1f544-ba14-41e5-aca1-d677aba70e38.png)
 
-We were interested to see whether temporal factors play a role in the usage of words by legislators. We observed that the usage of the word "Biden" spiked between February 20th and 28th 2022. We conducted research into why this may be, and found that Biden was under considerable criticism in the US Congress for his handling of of the Ukrainian crisis by Republicans (Morgan, 2022). These findings corroborate our hypothesis that politicians chose this mathod of attacking the opposition on Twitter, as they show that when an opportunity arises (i.e. the opposition makes a mistake) there is no hesitation in publicising this on Twitter.
+We were interested to see whether temporal factors play a role in the usage of words by legislators. We observed that the usage of the word "Biden" spiked between February 20th and 28th 2022 for Republicans. We conducted research into why this may be, and found that Biden was under considerable criticism in the US Congress for his handling of of the Ukrainian crisis by Republicans (Morgan, 2022). Similarly, we found that Democrats were more likely to use the word "Trump" in June. We conducted similar research into this and found that June is when the hearings for the January 6th Capitol Attack began, with Trump under significant criticism as a threat to US democracy (Breuninger, 2022). This corroborates our findings above that politicians choose Twitter as a method of attacking the opposition on Twitter, as they show that when an opportunity arises (i.e. the opposition makes a mistake) there is no hesitation in publicising this on Twitter with an aim to maximise reach. 
 
-To find evidence for this, we looked at how the use of certain words affected the politicians' user engagement on Twitter.
+To find further evidence for this, we looked at how the usage of certain words affected the politicians' user engagement on Twitter.
 
 *Insert user engagement visuals here*
 
 As you can see in the figures above, for the Republicans, the use of the word 'Biden' led to a much higher number of retweets than any other word. Similarly, the use of the word 'Trump' by Democrats caused a high number of retweets. This shows that the users of Twitter respond better to negative political tweets than positive ones and, as a result, politicians use this technique in order to reach a higher number of users.
+
+This also raises interesting questions for future research that builds on ours. For example, do legislators echo what they say in Congress on their Twitter, the way Republicans criticised Biden in both Congress and on Twitter? What is the distinction between what they say through an official versus through an unofficial lens? 
 
 ## Limitations & Technical Challenges
 
@@ -192,6 +194,8 @@ Sarmad wrote the Abstract, Motivations, Key Questions & Hypotheses, Limitations 
 
 ## Bibliography
 
+Breuninger, K. (2022) Jan. 6 hearing highlights 'carnage' of capitol riot in new video footage, Trump officials concede he lost election, CNBC. CNBC. Available at: https://www.cnbc.com/2022/06/09/trump-capitol-riot-hearing-jan-6-investigators-release-new-findings.html (Accessed: February 2, 2023). 
+
 Brush, M. (2010) White House not concerned about new census numbers, Michigan Radio. Michigan Radio. Available at: https://www.michiganradio.org/politics-government/2010-12-21/white-house-not-concerned-about-new-census-numbers (Accessed: January 21, 2023). 
 
 Frenkel, S. and Conger, K. (2022) Hate Speech’s Rise on Twitter Is Unprecedented, Researchers Find. Available at: https://www.nytimes.com/2022/12/02/technology/twitter-hate-speech.html (Accessed: January 26, 2023).
@@ -209,8 +213,6 @@ Iyengar, S. et al. (2019) “The origins and consequences of affective polarizat
 Jeong, G.-H. and Lowry, W. (2019) “The polarisation of energy policy in the US congress,” Journal of Public Policy, 41(1), pp. 17–41. Available at: https://doi.org/10.1017/s0143814x19000175. 
 
 Jones, B. (2020) Democrats far more likely than Republicans to see discrimination against blacks, not whites, Pew Research Center. Pew Research Center. Available at: https://www.pewresearch.org/fact-tank/2019/11/01/democrats-far-more-likely-than-republicans-to-see-discrimination-against-blacks-not-whites/ (Accessed: January 21, 2023). 
-
-Kennedy, B. and Johnson, C. (2020) More Americans see climate change as a priority, but Democrats are much more concerned than Republicans, Pew Research Center. Pew Research Center. Available at: https://www.pewresearch.org/fact-tank/2020/02/28/more-americans-see-climate-change-as-a-priority-but-democrats-are-much-more-concerned-than-republicans/ (Accessed: January 21, 2023). 
 
 Milroy, L. and Margrain, S. (1980) “Vernacular language loyalty and Social Network,” Language in Society, 9(1), pp. 43–70. Available at: https://doi.org/10.1017/s0047404500007788. 
 
