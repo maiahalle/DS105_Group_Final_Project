@@ -167,6 +167,10 @@ We were interested to see whether temporal factors play a role in the usage of w
 
 To find evidence for this, we looked at how the use of certain words affected the politicians' user engagement on Twitter.
 
+*Insert user engagement visuals here*
+
+As you can see in the figures above, for the Republicans, the use of the word 'Biden' led to a much higher number of retweets than any other word. Similarly, the use of the word 'Trump' by Democrats caused a high number of retweets. This shows that the users of Twitter respond better to negative political tweets than positive ones and, as a result, politicians use this technique in order to reach a higher number of users.
+
 ## Limitations & Technical Challenges
 
 Our project has a few limitations and faced some technical challenges. Firstly, in order to be replicable, data scientists would need elevated access to Twitter API, which they may not always have. To mitigate this to some degree, we ensured that our source code is fully available on our repository. Secondly, we ran into a few technical pre-processing errors involving retrieving the number of times tweets were retweeted or liked. We were unable to diagnose these errors in time for this project. Had we been able to, we may have been able to make additional findings, for e.g., whether tweets containing certain polarising words or names were more likely to cause greater engagement amongst followers.  
@@ -181,7 +185,7 @@ Overall, we saw considerable disparities between the language used by the Democr
 Maia created the code to collect the Twitter dataset showing the 50 most common used words per twitter handles and the code to create the dataframes for the Republican and Democratic Party. She also wrote the Index, Motivation, Data Collection, and Bibliography sections of the README.md. Lastly, she created the repository, webpage and added a theme.
 
 **Amara:**
-Amara analysed the data, transforming it into multiple more easily useable dataframes. She then created some more easily interpretable bar graphs and wordclouds. She interpreted the data and drew conclusions based on our observations.
+Amara analysed the data, transforming it into multiple more easily useable dataframes. She then created some more easily interpretable bar graphs, time series graphs and wordclouds. She interpreted the data and drew conclusions based on our observations.
 
 **Sarmad:**
 Sarmad wrote the Abstract, Motivations, Key Questions & Hypotheses, Limitations and Bibliography sections of the README.md, while also copy-editing the rest of it to ensure cohesiveness and consistency. He also did empirical research for all the substantive claims made about the Democrats and Republicans throughout the README.md. Lastly, he converted the README.md to an Index file for webpage creation.
