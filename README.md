@@ -113,7 +113,14 @@ Fourth, we group and count keywords per user and list all of their tweets
 
 The last major step was to group all the keywords by Twitter handle and to gather all the keywords from each tweet into one array to count. Finally, we used a Counter to count the keywords and then find the 50 most frequently used word per legislator, which we used to create a new data frame and csv file. 
 
-<img width="201" alt="image" src="https://user-images.githubusercontent.com/117990566/211174292-baf767c5-bc0b-41d6-b918-ebdcb75063e0.png">
+| Handle  | Word | Count |
+| ------------- | ------------- | ------------- |
+| AustinScottGA08  | today  |  496  |
+| AustinScottGA08  | thank  |  361  |
+| AustinScottGA08  | georgia  |  292  |
+| AustinScottGA08  | day  |  276  |
+| AustinScottGA08  | more  |  274  |
+
 This is a snippet of what our csv file looks like. On the far left is Rep. Austin Scott's Twitter handle. In the middle are 5 of his top 50 frequently used keywords. Finally, on the far right is how many times each word was used in our time frame. 
 
 ---
