@@ -7,7 +7,7 @@
     - Code Explanation
     - CSV Files
 5. [Findings](https://github.com/maiahalle/DS105-Project/blob/main/README.md#findings)
-6. [Limitations](https://github.com/maiahalle/DS105-Project/blob/main/README.md#limitations)
+6. [Limitations & Technical Challenges](https://github.com/maiahalle/DS105-Project/blob/main/README.md#limitations)
 7. [Conclusion](https://github.com/maiahalle/DS105-Project/blob/main/README.md#conclusion)
 8. [Contributions](https://github.com/maiahalle/DS105-Project/blob/main/README.md#exploratory-data-analysis)
     - Maia
@@ -19,9 +19,9 @@
 
 This project explores words used in tweets put out by members of the United States Congress. We aimed to explore whether there were any disparities between Republicans and Democrats in terms of words frequently used.
 
-We used Twitter's API, with elevated access, to gain access to almost 3 million tweets posted in the past 30 days from all 535 legislators in the US Congress. We then extracted key words through spacy, excluding certain words (such as prepositions), then grouped them by Twitter handle and then counted the 50 most frequent words used by a given legislator. We found significant evidence for our hypotheses, with there being significant variations in the language used by members of different parties. Some of this difference was predicted in our hypotheses but we also find additional dimensions that we had not predicted. 
+We used Twitter's API, with elevated access, to gain access to almost 3 million tweets posted in the past 30 days from all 535 legislators in the US Congress. We then extracted key words through spacy, excluding certain words (such as prepositions), then grouped them by Twitter handle and finally counted the 50 most frequent words used by a given legislator. We found significant evidence for our hypotheses, with there being significant variations in the language used by members of different parties. Some of this difference was predicted in our hypotheses but we also find additional dimensions that we had not predicted. 
 
-The first part of this page highlights our group's motivations to choose this topic. Next, we define key questions and our hypotheses that legislators from the same party will use similar words, with Democrats using more rights-based language and Republicans using more traditional-based language. Then, we explain our data collection process, followed by our data analysis process. Lastly, we highlight our findings and conclusion.   
+The first part of this page highlights our group's motivations to choose this topic. Next, we define key questions and our hypotheses that legislators from the same party will use similar words, with Democrats using more rights-based language and Republicans using more traditional-based language. Then, we explain our data collection process, followed by our data analysis process. We then highlight our findings and limitations and then reach our conclusion.   
 
 ## Motivations
 
@@ -160,11 +160,9 @@ This usage of language may also tell us something about the users of Twitter. Pe
 
 Despite our overall considerable evidence, our hypotheses are not fully substantiated. We did not find evidence of the Democrats being more likely to use, for example, climate-focused language, nor did we find the Republicans more focused on crime. This suggests that there may be certain policy areas that are more important or perhaps more polarised that legislators feel a greater need to discuss on Twitter. Alternatively, it may simply be that temporal factors play a role here - for example, closer to a climate-focused protest or event, legislators may discuss climate more on Twitter. 
 
-Our final project has a few limitations. FirstlOne additional limitation to our project is that, in order to be replicable, data scientists would need elevated access to Twitter API.  
+## Limitations & Technical Challenges
 
-## Limitations
-
-Our project has a few technical limitations. Firstly, in order to be replicable, data scientists would need elevated access to Twitter API. However, our source code is fully available on our repository. Secondly, we ran into a few pre-processing errors involving retrieving the number of times tweets were retweeted or liked. We were unable to diagnose these errors in time. Had we been able to, we may have been able to make additional findings, for e.g., whether tweets containing certain polarising words or names were more likely to cause greater engagement amongst followers.  
+Our project has a few limitations and faced some technical challenges. Firstly, in order to be replicable, data scientists would need elevated access to Twitter API, which they may not always have. To mitigate this to some degree, we ensured that our source code is fully available on our repository. Secondly, we ran into a few technical pre-processing errors involving retrieving the number of times tweets were retweeted or liked. We were unable to diagnose these errors in time for this project. Had we been able to, we may have been able to make additional findings, for e.g., whether tweets containing certain polarising words or names were more likely to cause greater engagement amongst followers.  
 
 ## Conclusion
 
