@@ -137,19 +137,19 @@ We visualise our results through bar graphs and word clouds.
 
 **Below: Figure 1a: The 50 most frequently used words by members of the Democrat Party**
 
-<img width="610" alt="image" src="https://user-images.githubusercontent.com/114494959/214915647-380281bf-695d-46e9-9f4e-dd665c399cb5.png">
+[democrats_top_50_bar_graph.pdf](https://github.com/maiahalle/DS105_Group_Final_Project/files/10569481/democrats_top_50_bar_graph.pdf)
 
 **Below: Figure 2a: The 50 most frequently used words by members of the Republican Party**
 
-<img width="619" alt="image" src="https://user-images.githubusercontent.com/114494959/214916308-611d41a5-7e4a-4c9d-a040-9eb91b714aab.png">
+[republicans_top_50_bar_graph.pdf](https://github.com/maiahalle/DS105_Group_Final_Project/files/10569484/republicans_top_50_bar_graph.pdf)
 
-**Below: Figure 1b: The 50 most frequently used words by Democrats that were not used in a similar frequency by Republicans**
+**Below: Figure 1b: The most frequently used words by Democrats that were not used in a similar frequency by Republicans**
 
-<img width="591" alt="image" src="https://user-images.githubusercontent.com/114494959/214915778-0e3480d0-58d4-4bcd-b62b-576c8245734c.png">
+![top_democrat_words_exclusive](https://user-images.githubusercontent.com/114494959/216339636-ac116fc2-134a-45d3-b490-9b1870dce6d8.png)
 
-**Below: Figure 2b: The 50 most frequently used words by Republicans that were not used in a similar frequency by Democrats**
+**Below: Figure 2b: The most frequently used words by Republicans that were not used in a similar frequency by Democrats**
 
-<img width="620" alt="image" src="https://user-images.githubusercontent.com/114494959/214916182-5f8902a1-459f-4b56-85d0-a51c57a998e1.png">
+![top_republican_words_exclusive](https://user-images.githubusercontent.com/114494959/216339771-1fc3d42b-fbb2-462a-9958-65ad66466848.png)
 
 The figures above demonstrate considerable evidence for our hypotheses. In line with H1, we find that Democrats are more likely to use words that align with their party's political ideologies. For instance, as we predicted, we find that the Democrats use rights-based language such as "care" and "protect". Similarly, we find evidence for H2, with Republicans more likely to use words such as "border". However, we also find additional language patterns that we did not protect. For example, Republicans frequently use the word "business", which may be linked to their policies of protecting businesses and the free market (Furhmann, 2022). Similarly, we find the word "woman" as a top word for Democrats, which makes sense given the Democrats' ideological goal of empowering woman by taking policy positions such as reducing the gender pay gap and increasing feamle representation (Horowitz, 2020).
 
@@ -164,6 +164,8 @@ In order to further explore this tactic of politicians tearing down their opposi
 ![dem_trump_2022](https://user-images.githubusercontent.com/114494959/216338431-d8b1f544-ba14-41e5-aca1-d677aba70e38.png)
 
 We were interested to see whether temporal factors play a role in the usage of words by legislators. We observed that the usage of the word "Biden" spiked between February 20th and 28th 2022. We conducted research into why this may be, and found that Biden was under considerable criticism in the US Congress for his handling of of the Ukrainian crisis by Republicans (Morgan, 2022). These findings corroborate our hypothesis that politicians chose this mathod of attacking the opposition on Twitter, as they show that when an opportunity arises (i.e. the opposition makes a mistake) there is no hesitation in publicising this on Twitter.
+
+To find evidence for this, we looked at how the use of certain words affected the politicians' user engagement on Twitter.
 
 ## Limitations & Technical Challenges
 
