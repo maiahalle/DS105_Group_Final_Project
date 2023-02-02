@@ -1,3 +1,5 @@
+<img width="376" alt="rep_elephant" src="https://user-images.githubusercontent.com/114494959/216384171-84558783-1b68-4549-a0c5-7c1505e14999.png"><img width="290" alt="dem_donkey" src="https://user-images.githubusercontent.com/114494959/216384242-ae17cd6e-c967-4da4-9eb5-67de1826069d.png">
+
 ## Index
 1. [Abstract](https://github.com/maiahalle/DS105-Project/blob/main/README.md#abstract) 
 2. [Motivations](https://github.com/maiahalle/DS105-Project/blob/main/README.md#motivations) 
@@ -137,11 +139,15 @@ We visualise our results through bar graphs and word clouds.
 
 **Below: Figure 1a: The 50 most frequently used words by members of the Democrat Party**
 
-[democrats_top_50_bar_graph.pdf](https://github.com/maiahalle/DS105_Group_Final_Project/files/10569481/democrats_top_50_bar_graph.pdf)
+<img width="582" alt="image" src="https://user-images.githubusercontent.com/114494959/216386913-081f4a71-b7c6-4762-864a-b0e22f7f0704.png">
+[democrats_top_50_bar_graph.pdf](https://github.com/maiahalle/DS105_Group_Final_Project/files/10571261/democrats_top_50_bar_graph.pdf)
+
 
 **Below: Figure 2a: The 50 most frequently used words by members of the Republican Party**
 
-[republicans_top_50_bar_graph.pdf](https://github.com/maiahalle/DS105_Group_Final_Project/files/10569484/republicans_top_50_bar_graph.pdf)
+<img width="602" alt="image" src="https://user-images.githubusercontent.com/114494959/216387063-195d639c-e148-4e7a-b32a-262bb406c98e.png">
+[republicans_top_50_bar_graph.pdf](https://github.com/maiahalle/DS105_Group_Final_Project/files/10571262/republicans_top_50_bar_graph.pdf)
+
 
 **Below: Figure 1b: The most frequently used words by Democrats that were not used in a similar frequency by Republicans**
 
@@ -157,7 +163,11 @@ Moreover, another thing we had not considered was the potential usage of languag
 
 In order to further explore this tactic of politicians tearing down their opposition, we created time series plots showing the frequency of the use of the word 'Biden' for Republicans and 'Trump' for Democrats in 2022. See below:
 
+**Below: Figure 1c: The frequency of the use of the word 'Trump' by Democrats over time**
+
 ![dem_trump_2022](https://user-images.githubusercontent.com/114494959/216365937-a34b2ea1-226c-4940-8064-0251c61b6860.png)
+
+**Below: Figure 2c: The frequency of the use of the word 'Biden' by Republicans over time**
 
 ![rep_biden_2022](https://user-images.githubusercontent.com/114494959/216366206-661b5ff6-0206-4ba6-814f-56f0da20ee6e.png)
 
@@ -165,7 +175,11 @@ We were interested to see whether temporal factors play a role in the usage of w
 
 To find further evidence for this, we looked at how the usage of certain words affected the politicians' user engagement on Twitter.
 
+**Below: Figure 1d: User engagement statistics for the exclusively Democrat most frequent words**
+
 ![dems_stacked_engagement](https://user-images.githubusercontent.com/114494959/216368469-6dd0ed3d-44cf-4644-8382-0c5347c3f560.png)
+
+**Below: Figure 2d: User engagement statistics for the exclusively Republican most frequent words**
 
 ![reps_stacked_engagement](https://user-images.githubusercontent.com/114494959/216368525-eb8f6f71-5d11-430a-98d2-3aafce7cdf9f.png)
 
