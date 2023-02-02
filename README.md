@@ -7,7 +7,7 @@
     - Code Explanation
     - CSV Files
 5. [Findings](https://github.com/maiahalle/DS105-Project/blob/main/README.md#findings)
-6. [Limitations](https://github.com/maiahalle/DS105-Project/blob/main/README.md#limitations)
+6. [Limitations & Technical Challenges](https://github.com/maiahalle/DS105-Project/blob/main/README.md#limitations)
 7. [Conclusion](https://github.com/maiahalle/DS105-Project/blob/main/README.md#conclusion)
 8. [Contributions](https://github.com/maiahalle/DS105-Project/blob/main/README.md#exploratory-data-analysis)
     - Maia
@@ -19,9 +19,9 @@
 
 This project explores words used in tweets put out by members of the United States Congress. We aimed to explore whether there were any disparities between Republicans and Democrats in terms of words frequently used.
 
-We used Twitter's API, with elevated access, to gain access to almost 3 million tweets posted in the past 30 days from all 535 legislators in the US Congress. We then extracted key words through spacy, excluding certain words (such as prepositions), then grouped them by Twitter handle and then counted the 50 most frequent words used by a given legislator. We found significant evidence for our hypotheses, with there being significant variations in the language used by members of different parties. Some of this difference was predicted in our hypotheses but we also find additional dimensions that we had not predicted. 
+We used Twitter's API, with elevated access, to gain access to almost 3 million tweets posted in the past 30 days from all 535 legislators in the US Congress. We then extracted key words through spacy, excluding certain words (such as prepositions), then grouped them by Twitter handle and finally counted the 50 most frequent words used by a given legislator. We found significant evidence for our hypotheses, with there being significant variations in the language used by members of different parties. Some of this difference was predicted in our hypotheses but we also find additional dimensions that we had not predicted. 
 
-The first part of this page highlights our group's motivations to choose this topic. Next, we define key questions and our hypotheses that legislators from the same party will use similar words, with Democrats using more rights-based language and Republicans using more traditional-based language. Then, we explain our data collection process, followed by our data analysis process. Lastly, we highlight our findings and conclusion.   
+The first part of this page highlights our group's motivations to choose this topic. Next, we define key questions and our hypotheses that legislators from the same party will use similar words, with Democrats using more rights-based language and Republicans using more traditional-based language. Then, we explain our data collection process, followed by our data analysis process. We then highlight our findings and limitations and then reach our conclusion.   
 
 ## Motivations
 
@@ -113,7 +113,14 @@ Fourth, we group and count keywords per user and list all of their tweets
 
 The last major step was to group all the keywords by Twitter handle and to gather all the keywords from each tweet into one array to count. Finally, we used a Counter to count the keywords and then find the 50 most frequently used word per legislator, which we used to create a new data frame and csv file. 
 
-<img width="201" alt="image" src="https://user-images.githubusercontent.com/117990566/211174292-baf767c5-bc0b-41d6-b918-ebdcb75063e0.png">
+| Handle  | Word | Count |
+| ------------- | ------------- | ------------- |
+| AustinScottGA08  | today  |  496  |
+| AustinScottGA08  | thank  |  361  |
+| AustinScottGA08  | georgia  |  292  |
+| AustinScottGA08  | day  |  276  |
+| AustinScottGA08  | more  |  274  |
+
 This is a snippet of what our csv file looks like. On the far left is Rep. Austin Scott's Twitter handle. In the middle are 5 of his top 50 frequently used keywords. Finally, on the far right is how many times each word was used in our time frame. 
 
 ---
@@ -158,13 +165,13 @@ Moreover, another thing we had not considered was the potential usage of languag
 
 This usage of language may also tell us something about the users of Twitter. Perpetuated hate speech and echo chambers have been an issue on Twitter for quite some time (Frenkel & Conger, 2022), and some expect this to get worse after Elon Musk's recent purchase of Twitter. Is it the nature of Twitter and it's algorithms which cause this and mean that this tactic of attacking the opposition has been deemed most successful by the two main political parties in the US? Or is it perhaps that these politicians are the part of the cause of Twitter's problem? This may be an interesting topic for further research, however, for now, we have found that US politicians generally see this approach as an efficient enough way to rally support for their party that it is one of the most frequent occurences in their tweets.
 
-Despite our overall considerable evidence, our hypotheses are not fully substantiated. We did not find evidence of the Democrats being more likely to use, for example, climate-focused language, nor did we find the Republicans more focused on crime. This suggests that there may be certain policy areas that are more important or perhaps more polarised that legislators feel a greater need to discuss on Twitter. Alternatively, it may simply be that temporal factors play a role here - for example, closer to a climate-focused protest or event, legislators may discuss climate more on Twitter. 
+We also explored whether temporal factors played a role. For example, we were interested to see whether temporal factors play a role in the usage of words by legislators - for example, we were curious to see whether climate-focused language would be more likely to be used around important climate dates. We did not find evidence of this, however we did make some interesting observations. We observed that the usage of the word "Biden" spiked between February 20th and 28th 2022. We conducted research into why this may be, and found that Biden was under considerable criticism in the US Congress for his handling of of the Ukrainian crisis by Republicans (Morgan, 2022). Our findings therefore suggest that Republicans may, at least sometimes, echo what they say in Congress. Further research may build on this by comparing our data with data of words used within Congress to identify to what extent words used in  official capacities differ from words used on Twitter.
 
-Our final project has a few limitations. FirstlOne additional limitation to our project is that, in order to be replicable, data scientists would need elevated access to Twitter API.  
+Some of our hypotheses were not fully substantiated, however. For example, we did not find evidence of the Democrats being more likely to use climate-focused language, nor did we find the Republicans more focused on crime. This suggests that there may be certain policy areas that are more important or perhaps more polarised that legislators feel a greater need to discuss on Twitter. 
 
-## Limitations
+## Limitations & Technical Challenges
 
-Our project has a few technical limitations. Firstly, in order to be replicable, data scientists would need elevated access to Twitter API. However, our source code is fully available on our repository. Secondly, we ran into a few pre-processing errors involving retrieving the number of times tweets were retweeted or liked. We were unable to diagnose these errors in time. Had we been able to, we may have been able to make additional findings, for e.g., whether tweets containing certain polarising words or names were more likely to cause greater engagement amongst followers.  
+Our project has a few limitations and faced some technical challenges. Firstly, in order to be replicable, data scientists would need elevated access to Twitter API, which they may not always have. To mitigate this to some degree, we ensured that our source code is fully available on our repository. Secondly, we ran into a few technical pre-processing errors involving retrieving the number of times tweets were retweeted or liked. We were unable to diagnose these errors in time for this project. Had we been able to, we may have been able to make additional findings, for e.g., whether tweets containing certain polarising words or names were more likely to cause greater engagement amongst followers.  
 
 ## Conclusion
 
@@ -204,6 +211,8 @@ Jones, B. (2020) Democrats far more likely than Republicans to see discriminatio
 Kennedy, B. and Johnson, C. (2020) More Americans see climate change as a priority, but Democrats are much more concerned than Republicans, Pew Research Center. Pew Research Center. Available at: https://www.pewresearch.org/fact-tank/2020/02/28/more-americans-see-climate-change-as-a-priority-but-democrats-are-much-more-concerned-than-republicans/ (Accessed: January 21, 2023). 
 
 Milroy, L. and Margrain, S. (1980) “Vernacular language loyalty and Social Network,” Language in Society, 9(1), pp. 43–70. Available at: https://doi.org/10.1017/s0047404500007788. 
+
+Morgan, D. (2022) Republicans target Biden for blame over Putin's Ukraine invasion, Reuters. Thomson Reuters. Available at: https://www.reuters.com/world/us/republicans-target-biden-blame-over-putins-ukraine-invasion-2022-02-24/ (Accessed: February 2, 2023). 
 
 Oliphant, J.B. and Cerda, A. (2022) Republicans and Democrats have different top priorities for U.S. immigration policy, Pew Research Center. Pew Research Center. Available at: https://www.pewresearch.org/fact-tank/2022/09/08/republicans-and-democrats-have-different-top-priorities-for-u-s-immigration-policy/ (Accessed: January 21, 2023). 
 
