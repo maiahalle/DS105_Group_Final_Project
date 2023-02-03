@@ -124,18 +124,10 @@ Because the CSV files were too large to upload to GitHub, we uploaded them onto 
 
 ## Findings
 
-
-<img width="582" alt="image" src="https://user-images.githubusercontent.com/114494959/216386913-081f4a71-b7c6-4762-864a-b0e22f7f0704.png">
-pdf version: https://github.com/maiahalle/DS105_Group_Final_Project/files/10571261/democrats_top_50_bar_graph.pdf
+<img width="446" alt="dems_top_50_title_right_place" src="https://user-images.githubusercontent.com/114494959/216555851-662ea4b3-5cdd-4867-9794-c13f41bc5f61.png"><img width="457" alt="reps_top_50_title_right_place" src="https://user-images.githubusercontent.com/114494959/216555933-cbd4c789-df15-442e-8a75-5217348c3221.png">
 
 
-<img width="602" alt="image" src="https://user-images.githubusercontent.com/114494959/216387063-195d639c-e148-4e7a-b32a-262bb406c98e.png">
-pdf version: https://github.com/maiahalle/DS105_Group_Final_Project/files/10571262/republicans_top_50_bar_graph.pdf
-
-
-![top_democrat_words_exclusive](https://user-images.githubusercontent.com/114494959/216366716-e744f628-38ca-46a3-98c7-ea94a0722a66.png)
-
-![top_republican_words_exclusive](https://user-images.githubusercontent.com/114494959/216366874-733c083a-2b49-4573-b0fc-70e5311e27fa.png)
+![top_democrat_words_exclusive](https://user-images.githubusercontent.com/114494959/216366716-e744f628-38ca-46a3-98c7-ea94a0722a66.png)![top_republican_words_exclusive](https://user-images.githubusercontent.com/114494959/216366874-733c083a-2b49-4573-b0fc-70e5311e27fa.png)
 
 To answer our first question "Do Democrats and Republicans use the same words?" we created the above visuals. The figures above illustrate that the 50 most common words used by the two parties correspond to the party's respected political ideologies. For instance, we find that the Democrats frequently use words like "health", "protect" and "women". This was expected since the Democratic party's policies aim to reduce the gender pay gap and increase female representation (Horowitz, 2020) and of providing healthcare coverage to Americans (Dunn, 2019). Similarly, we find that Republicans are more likely to use words such as "border" and "business". These words are very on-brand for Republicans as they are known for their emphasis on border security (Oliphant & Cerda, 2022) and their economic belief that small businesses are key to a strong economy (Furhmann, 2022).
 
