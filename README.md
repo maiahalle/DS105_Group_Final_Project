@@ -19,36 +19,28 @@
 
 ## Abstract
 
-This project explores words used in tweets posted by members of the current United States Congress. We aimed to explore whether there were any disparities between Republicans and Democrats in terms of the language they use in their tweets.
-
-We used Twitter's API with elevated access to gain access to almost 3 million tweets from all 535 legislators in the US Congress. We then extracted key words through spacy, excluding certain words (such as prepositions), then grouped them by Twitter handle. Finally, we counted the 50 most frequent words used by a given legislator. We found significant evidence for our hypotheses, with there being significant variations in the language used by members of different parties. Some of this difference was predicted in our hypotheses but we also find additional dimensions that we had not predicted. We highlight potential mechanisms that may explain these differences.
+As the idiom "birds of a feather flock together" suggests, people of the same ideology, hobbies, and interests tend to stick together. Will this idiom ring true for American senators and representatives? To find out, our group analyzed the most frequent words used on Twitter by all 535 Members of the 117th United States Congress. Will legislators from the same political party Tweet similar words to each other? We used Twitter's API with elevated access to analyze almost 3 million tweets from all 535 legislators in the US Congress. We then used spacy to extract keywords and then grouped them by Twitter handle. Finally, we counted the 50 most frequent words used by a given legislator. We found significant variations in the language used by members of different parties, which supported our hypothesis that Democrats will be more likely to rights-based language and Republicans will be more likely to use words such as "family", "border" and "crime". With an increased polarization in not only Congress but in wider US society, the information we gather from Twitter is important insight into what American legislators have on their minds and whether or not that aligns with the rest of their party.
 
 The first part of this page highlights our group's motivations to choose this topic. Next, we define key questions and our hypotheses that legislators from the same party will use similar words, with Democrats using more rights-based language and Republicans using more traditions-based language. Then, we explain our data collection process, followed by our data analysis process. We then highlight our findings and limitations before reaching our conclusion.   
 
 ## Motivations
 
-Our group chose this topic area our final project for several reasons. All of our group members are increasingly aware of significant polarisation in not only the US Congress (Jeong & Lowry, 2019) but also the wider US society (Iyengar et al., 2019). Having conducted their studies during the COVID-19 pandemic, an era known for what felt like unprecedented political polarisation on multiple policy positions in the US, our group developed a natural interest onto what American legislators have on their minds, whether or not that aligns with their party, and whether or not that contradicts members of other parties. 
+This project is very timely as political polarization in the US Congress (Jeong & Lowry, 2019) continues to get worse. Maia is fascinated by how the future US society will look if polarization continues. Polarization erodes democracy by curtailing legislative compromises and leading politicians to pursue their political agendas outside the gridlocked Congress through courts (McCoy & Press, 2022). 
 
-Some of us also had specific reasons to be interested in this particular topic. For example, one of our members, Maia, is American and wanted to gain further insight into the polarisation in her country, while Sarmad studies the philosophy of language and wanted to learn more about the relationship between words, thoughts and political ideologies. Amara also studies politics for half of her degree. We believe that language is a powerful tool and that it's difficult to truly understand how much of an effect it has on people and their political opinions. However, people with high amounts of influence, like US politicians, may be aware of this power, and therefore may choose their words in a way which will influence people towards their agendass on big platforms like Twitter. By analysing which words different parties use the most over certain periods, we may be able to see more clearly what they were trying to achieve at that time.
+As a student studying the philosophy of language, Sarmad is interested in the words chosen by the Members of Congress. He wanted to learn more about the relationship between words, thoughts, and political ideologies. 
 
-In doing research for this project, we were surprised to learn that such an analysis had, to our knowledge, not been conducted yet. In contributing this project, we hope to add to knowledge about political polarisation in the US and grow awareness about the potentially salient role played by words, language and Twitter in the political landscape. 
+Amara, who studies politics for half of her degree, believes that language is a powerful tool and that it's difficult to truly understand how much of an effect it has on people and their political opinions. However, people with high amounts of influence, like US politicians, may be aware of this power and therefore may choose their words in a way which will influence people towards their agendas on big platforms like Twitter. By analysing which words different parties use the most over certain periods, we may be able to see more clearly what they were trying to achieve at that time.
 
-## Key Questions and Hypotheses 
+In doing research for this project, we were surprised to learn that such an analysis had, to our knowledge, not been conducted yet. In contributing to this project, we hope to add to knowledge about political polarization in the US and grow awareness about the potentially salient role played by words, language, and Twitter in the current American political landscape. 
 
-H1: We hypothesise that Democrats will be more likely to rights-based language 
+## Aims
 
-This hypothesis was informed by the fact that the Democratic party is relatively more focused than Republicans on increasing rights for groups such as racial and sexual minorities (Jones, 2020), respectively. 
-
-H2: We hypothesise that Republicans will be more likely to use words such as "family", "border" and "crime". 
-
-We predicted this because Republicans are generally known for their emphasis on traditional family values (Gronbeck-Tedesco, 2022), border security (Oliphant & Cerda, 2022), and crime (Gambino & Greve, 2022).
-
-In addition to the above hypotheses, we were open to, and actively looking for any additional phenomena that we may not have predicted, for example other words from a non-ideological lens being common, or certain words being more common during certain time periods. 
+Our first aim in this project is to see if Democratic and Republican Members of Congress use the same words. Secondly, we wanted to see which of the most frequent words lead to increased user engagement. 
 
 ## Data Collection
 
 **Data Set:**
-We collected tweets from all of the current Congresspeople's Twitter accounts. Our time-frames were between 7th November to 7th December and 10th December to 10th January. This amounted to almost 3 million tweets. We got the list of Twitter handles from a Excel spreadsheet titled Congressional Twitter Accounts created by the [University of California San Diego (UCSD)](https://ucsd.libguides.com/congress_twitter) (Smith, 2022). Our data set is comprised of 223 Democrats (including 4 Delegates) and 215 Republicans (including 1 Delegate and the Resident Commissioner of Puerto Rico), and 3 vacant seats. 
+We collected tweets from all of the current Congresspeople's Twitter accounts. Our time-frames were between 7th November to 7th December and 10th December to 10th January. This amounted to almost 3 million tweets. We got the list of Twitter handles from an Excel spreadsheet titled Congressional Twitter Accounts created by the [University of California San Diego (UCSD)](https://ucsd.libguides.com/congress_twitter) (Smith, 2022). Our data set is comprised of 223 Democrats (including 4 Delegates) and 215 Republicans (including 1 Delegate and the Resident Commissioner of Puerto Rico), and 3 vacant seats. 
 
 <img width="640" alt="Screen Shot 2023-01-04 at 8 22 27 PM" src="https://user-images.githubusercontent.com/117990566/210680386-51fec2fc-0a3b-4e0a-a43d-f653efc48b63.png">
 
@@ -56,13 +48,13 @@ This map illustrates the distribution of Congressional representatives throughou
 
 ---
 **Code Explanation:**
-The code we used to gather our data can be divided into four key sections. First, implementing the twitter API to make queries. Second, converting the twitter JSON response to a dataframe. Third, extracting key words from each tweet. Lastly, grouping and counting keywords per user.
+The code we used to gather our data can be divided into four key sections. First, we implemented the Twitter API to make queries. Second, we converted the Twitter JSON response to a data frame. Third, we extracted keywords from each tweet, and lastly, we grouped and counted keywords per user.
 
 First, we implemented the Twitter API to retrieve Twitter IDs and pages of tweets:
     
-One of the initial obstacles we had to overcome for this project were limits posed by the Twitter API. The API has three types of access levels. The most basic level allows users to retrieve up to 500,000 tweets per month and have 25 requests per 15 minutes. These limits would hinder our ability to gather the amount of data needed so we decided to apply for elevated access. At this level, we were able to retrieve up to 2 million tweets per month and have 50 requests per 15 minutes. However, since we had to retrieve more than 2 million Tweets for our analysis, we had to wait a full month to finish gathering all of them. Additionally the maximum number of tweets per request is 100 and it takes 15 minutes to retrieve 5,000 tweets. To put it into context, the average number of tweets per member of Congress in our data set is 2,842 and most politicians tweeted more than 3,000 for the 30 day time period we used. This means it would take around 10 minutes per legislator. To maximise time-efficiency and avoid reaching the request limit, we decided to use Comma Separated Values (CSV) files to store our data. This would circumvent the need to ask the Twitter API for data we previously requested, as well as re-running the code more than necessary. 
+One of the initial obstacles we had to overcome for this project was the limits posed by the Twitter API. The API has three types of access levels. The most basic level allows users to retrieve up to 500,000 tweets per month and have 25 requests per 15 minutes. These limits would hinder our ability to gather the amount of data needed so we decided to apply for elevated access. At this level, we were able to retrieve up to 2 million tweets per month and have 50 requests per 15 minutes. However, since we had to retrieve more than 2 million Tweets for our analysis, we had to wait a full month to finish gathering all of them. Additionally, the maximum number of tweets per request is 100 and it takes 15 minutes to retrieve 5,000 tweets. To put it into context, the average number of tweets per member of Congress in our data set is 2,842 and most politicians tweeted more than 3,000 for the 30-day time period we used. This means it would take around 10 minutes per legislator. To maximise time efficiency and avoid reaching the request limit, we decided to use Comma Separated Values (CSV) files to store our data. This would circumvent the need to ask the Twitter API for data we previously requested, as well as re-running the code more than necessary.
 
-Second, we converted JSON to dataframe:
+Second, we converted JSON to a data frame:
 
 We had to extract the necessary data from the Twitter JSON response by creating a name value pair dictionary.
 
@@ -83,9 +75,9 @@ We had to extract the necessary data from the Twitter JSON response by creating 
             "like_count": metrics["reply_count"],
             "quote_count": metrics["quote_count"]}</code></pre>
        
-The JSON response is a tree structure and we needed to create columns per tweet. Therefore, this function created a name value pair dictionary that could be used to create an array of consistent dictionaries to be used creating our panda data-frame.
+The JSON response is a tree structure and we needed to create columns per tweet. Therefore, this function created a name-value pair dictionary that could be used to create an array of consistent dictionaries to be used creating our panda data frame.
 
-Third, we used spacy to extract key words from Tweets
+Third, we used spacy to extract keywords from Tweets
 
 <pre><code>nlp = spacy.load("en_core_web_sm")
 nlp.disable_pipe("parser")
@@ -98,11 +90,7 @@ To make the code run faster, we used the sentencizer rather than the default par
 def get_tokens(doc):
     return [token.lemma_.lower() for token in doc if token.is_alpha and token.pos_ in include_types and token.lemma_.lower() not in exclude_words]</code></pre>
     
-A second barrier we faced was that the most frequently tweeted words were primarily prepositions, interjections, and conjunctions, such as "the", "at", and "in". However, these words do not really give us context as to what the Members of Congress are tweeting and thinking about, and do not offer evidence supporting or opposing our hypothesis. To overcome this, we used Spacy's natural language process to extract only adjectives, nouns, proper-nouns, verbs and adverbs. Furthermore, to group past tense, plurals, and similar variables of the same word we used the lemma to extract only the base word. For example, "history", "historical", and "histories" would all be grouped into  "history". This would ensure we capture the concepts focused and thoughts expressed by the Members, rather than the particular word used.
-
-<pre><code>exclude_words = ["rt", "amp"]</code></pre>
-
-It is important to note that we decided to exclude "rt" because , while it may provide interesting information on the frequency of retweeting in a given month, our project's scope is limited only to the individual words in tweets. 
+A second barrier we faced was that most frequently tweeted words were primarily prepositions, interjections, and conjunctions, such as "the", "at", and "in". However, these words do not really give us context as to what the Members of Congress are tweeting and thinking about, and do not offer evidence supporting or opposing our hypothesis. To overcome this, we used Spacy's natural language process to extract only adjectives, nouns, proper nouns, verbs and adverbs. Furthermore, to group past tense, plurals, and similar variables of the same word we used the lemma to extract only the base word. For example, "history", "historical", and "histories" would all be grouped into "history". This would ensure we capture the concepts focused on and thoughts expressed by the Members, rather than the particular word used.
 
 Fourth, we grouped and counted keywords per user and listed all of their tweets
 
@@ -113,7 +101,7 @@ Fourth, we grouped and counted keywords per user and listed all of their tweets
     df["handle"] = row["handle"]
     return df[["handle","Word","Count"]]</code></pre> 
 
-The last major step was to group all the keywords by Twitter handle and to gather all the keywords from each tweet into one array to count. Finally, we used a Counter to count the keywords and then find the 50 most frequently used word per legislator, which we used to create a new data frame and CSV file. 
+The last major step was to group all the keywords by Twitter handle and to gather all the keywords from each tweet into one array to count. Finally, we used a Counter to count the keywords and then find the 50 most frequently used words per legislator, which we used to create a new data frame and CSV file. 
 
 | Handle  | Word | Count |
 | ------------- | ------------- | ------------- |
@@ -123,12 +111,12 @@ The last major step was to group all the keywords by Twitter handle and to gathe
 | AustinScottGA08  | day  |  276  |
 | AustinScottGA08  | more  |  274  |
 
-This is a snippet of what our CSV file looks like. On the far left is Rep. Austin Scott's Twitter handle. In the middle are 5 of his top 50 frequently used keywords. Finally, on the far right is how many times each word was used in our time frame. 
+This is a snippet of what our word_count.csv file looks like. On the far left is Rep. Austin Scott's Twitter handle. In the middle are five of his top 50 frequently used keywords. Finally, on the far right is how many times each word was used in our time frame. 
 
 ---
 **CSV Files:**
 
-Because the CSV files were too large to upload to GitHub, we uploaded them onto Google Drive:
+Because the CSV files were too large to upload to GitHub, we uploaded them onto Google Drive and can be accesed through these links:
 
 [grouped.csv](https://drive.google.com/file/d/1dQA9-0dUVCP86vxsk16WZewj3J7u6yGM/view?usp=drive_web)
 
@@ -192,13 +180,13 @@ Overall, we saw considerable disparities between the language used by the Democr
 ## Contributions
 
 **Maia:**
-Maia created the code to collect the Twitter dataset showing the 50 most common used words per twitter handles and the code to create the dataframes for the Republican and Democratic Party. She also wrote the Index, Motivation, Data Collection, and Bibliography sections of the README.md. Lastly, she created the repository, webpage and added a theme.
+Maia created the code to collect the Twitter dataset showing the 50 most common used words per Twitter handles and the code to create the dataframes for the Republican and Democratic Party. She also wrote the Index, Abstract, Motivations, Aims, Data Collection sections of the README.md, and did final edits and grammar checks. Lastly, she created the repository, webpage, and added a theme.
 
 **Amara:**
-Amara analysed the data, transforming it into multiple more easily useable dataframes. She then created some more easily interpretable bar graphs, time series graphs and wordclouds. She interpreted the data and drew conclusions based on our observations. She wrote the Findings and Conclusion sections of the README.md.
+Amara analysed the data, transforming it into multiple more easily useable dataframes. She then created some more easily interpretable bar graphs, time series graphs and wordclouds. She interpreted the data and drew conclusions based on our observations. She wrote the Motivations, Findings and Conclusion sections of the README.md.
 
 **Sarmad:**
-Sarmad wrote the Abstract, Motivations, Key Questions & Hypotheses, Limitations and Bibliography sections of the README.md, while also copy-editing the rest of it to ensure cohesiveness and consistency. He also did empirical research for all the substantive claims made about the Democrats and Republicans throughout the README.md. Lastly, he converted the README.md to an Index file for webpage creation.
+Sarmad wrote the Motivations, Limitations and Bibliography sections of the README.md, while also copy-editing the rest of it to ensure cohesiveness and consistency. He also did empirical research for all the substantive claims made about the Democrats and Republicans throughout the README.md. Lastly, he converted the README.md to an Index file for webpage creation.
 
 ## Bibliography
 
@@ -217,8 +205,6 @@ Gambino, L. and Greve, J.E. (2022) Democrats try to flip narrative amid barrage 
 Gronbeck-Tedesco, J.A. (2022) The GOP has revived its 1970s "Traditional family values" playbook, Slate Magazine. Slate. Available at: https://slate.com/news-and-politics/2022/04/the-gops-new-american-family-values.html (Accessed: January 21, 2023). 
 
 Horowitz, J.M. (2020) Wide partisan gaps in U.S. over how far the country has come on gender equality, Pew Research Center's Social &amp; Demographic Trends Project. Pew Research Center. Available at: https://www.pewresearch.org/social-trends/2017/10/18/wide-partisan-gaps-in-u-s-over-how-far-the-country-has-come-on-gender-equality/ (Accessed: January 27, 2023). 
-
-Iyengar, S. et al. (2019) “The origins and consequences of affective polarization in the United States,” Annual Review of Political Science, 22(1), pp. 129–146. Available at: https://doi.org/10.1146/annurev-polisci-051117-073034. 
 
 Jeong, G.-H. and Lowry, W. (2019) “The polarisation of energy policy in the US congress,” Journal of Public Policy, 41(1), pp. 17–41. Available at: https://doi.org/10.1017/s0143814x19000175. 
 
