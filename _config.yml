@@ -2,4 +2,5 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme 
 
-title: [DS 105 Project]
+title: [Twitter Birds of a Feather Flock Together: Analyzing American Legislator’s Frequently Used Words]
+description: [This project explores words used in Tweets put out by members of the United States Congress. We aimed to explore whether there were any disparities between Republicans and Democrats in terms of words frequently tweeted]
