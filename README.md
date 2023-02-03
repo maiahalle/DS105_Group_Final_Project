@@ -190,7 +190,7 @@ Maia created the code to collect the Twitter dataset showing the 50 most commonl
 Amara analysed the data, transforming it into multiple more easily usable data frames. She then created some more easily interpretable bar graphs, time series graphs and word clouds. She interpreted the data and drew conclusions based on our observations. She wrote the Motivations, Findings and Conclusion sections of the README.md.
 
 **Sarmad:**
-Sarmad wrote the Motivations, Limitations and Bibliography sections of the README.md, while also copy-editing the rest of it to ensure cohesiveness and consistency. He also did empirical research for all the substantive claims made about the Democrats and Republicans throughout the README.md. Lastly, he converted the README.md to an Index file for webpage creation.
+Sarmad wrote the Motivations, Limitations and Bibliography sections of the README.md, while also copy-editing the rest of it to ensure cohesiveness and consistency. He also did empirical research for all the substantive claims made about the Democrats and Republicans throughout the README.md.
 
 ## Bibliography
 
