@@ -15,7 +15,7 @@
     - Maia
     - Amara
     - Sarmad
-9. Bibliograpy
+9. Bibliography
 
 ## Abstract
 
@@ -25,7 +25,7 @@ The first part of this page highlights our group's motivations to choose this to
 
 ## Motivations
 
-This project is very timely as political polarization in the US Congress continues to get worse (Jeong & Lowry, 2019). Maia is fascinated by how US society will look in the future if polarization continues. Polarization erodes democracy by curtailing legislative compromises and leads politicians to pursue their political agendas outside the gridlocked Congress through courts (McCoy & Press, 2022). 
+This project is very timely as political polarisation in the US Congress continues to get worse (Jeong & Lowry, 2019). Maia is fascinated by how US society will look in the future if polarisation continues. Polarisation erodes democracy by curtailing legislative compromises and leads politicians to pursue their political agendas outside the gridlocked Congress through courts (McCoy & Press, 2022). 
 
 As a student studying the philosophy of language, Sarmad is interested in the words chosen by the Members of Congress. He wanted to learn more about the relationship between words, thoughts, and political ideologies. 
 
@@ -35,12 +35,12 @@ In doing research for this project, we were surprised to learn that such an anal
 
 ## Aims
 
-Our first aim in this project was to see which words are most frequently used by each political party as a whole. Then we will will look into the words from this top group and analyse the ones which are used exclusively by each party at this level of frequency. Next, we will explore when and why some of these words were frequently used. Lastly, we will investigate the links between these frequently used words and the level of user engagement. 
+Our first aim in this project was to see which words are most frequently used by each political party as a whole. Then we will look into the words from this top group and analyse the ones which are used exclusively by each party at this level of frequency. Next, we will explore when and why some of these words were frequently used. Lastly, we will investigate the links between these frequently used words and the level of user engagement. 
 
 ## Data Collection
 
 **Data Set:**
-We collected tweets from all of the current Congresspeople's Twitter accounts. Our time-frames were between 7th November to 7th December and 10th December to 10th January. This amounted to almost 3 million tweets. We got the list of Twitter handles from an Excel spreadsheet titled Congressional Twitter Accounts created by the [University of California San Diego (UCSD)](https://ucsd.libguides.com/congress_twitter) (Smith, 2022). Our data set is comprised of 223 Democrats (including 4 Delegates) and 215 Republicans (including 1 Delegate and the Resident Commissioner of Puerto Rico), and 3 vacant seats. 
+We collected recent tweets from all of the current Congresspeople's Twitter accounts which amounted to a total of almost 3 million tweets. We got the list of Twitter handles from an Excel spreadsheet titled Congressional Twitter Accounts created by the [University of California San Diego (UCSD)](https://ucsd.libguides.com/congress_twitter) (Smith, 2022). Our data set consists of 223 Democrats (including 4 Delegates) and 215 Republicans (including 1 Delegate and the Resident Commissioner of Puerto Rico), and 3 vacant seats. 
 
 <img width="640" alt="Screen Shot 2023-01-04 at 8 22 27 PM" src="https://user-images.githubusercontent.com/117990566/210680386-51fec2fc-0a3b-4e0a-a43d-f653efc48b63.png">
 
@@ -137,11 +137,7 @@ Furthermore, one thing that caught our eyes when looking at these bar graphs is 
 
 To further explore this tactic of politicians tearing down their opposition, we created time series plots showing the frequency of the use of the word 'Biden' for Republicans and 'Trump' for Democrats in 2022. See below:
 
-**Below: Figure 1c: The frequency of the use of the word 'Trump' by Democrats over time**
-
 ![dem_trump_2022](https://user-images.githubusercontent.com/114494959/216365937-a34b2ea1-226c-4940-8064-0251c61b6860.png)
-
-**Below: Figure 2c: The frequency of the use of the word 'Biden' by Republicans over time**
 
 ![rep_biden_2022](https://user-images.githubusercontent.com/114494959/216366206-661b5ff6-0206-4ba6-814f-56f0da20ee6e.png)
 
@@ -153,13 +149,13 @@ Regardless, to find further evidence for our case, we examined how the usage of 
 
 ![reps_stacked_engagement](https://user-images.githubusercontent.com/114494959/216368525-eb8f6f71-5d11-430a-98d2-3aafce7cdf9f.png)
 
-As you can see in the figures above, for Democrats, tweets that included the word 'Trump' had a far higher level of user engagement than any other most frequent words exclusive to the Democrats. The vast majority of engagement with the tweets from Democrats including the word "Trump" were retweets, which ultimately means that these tweets were able to reach the highest number of users through the social network. Similarly, the tweets with the highest engagement for the Republicans included the word 'Democrats', closely followed by 'Biden'. This is consistent with the findings discussed above and further emphasises that attacking the opposition on Twitter is an effective way to expand reach and therefore increase support. This raises the question of whether or not politicians make this choice conciously, i.e. is attacking the opposition a strategic move that they know will lead to higher numbers of retweets and expand their online reach? This would be an interesting topic for further research, but would be hard to answer without speaking to politicians in person.
+As you can see in the figures above, for Democrats, tweets that included the word 'Trump' had a far higher level of user engagement than any other most frequent words exclusive to the Democrats. The vast majority of engagement with the tweets from Democrats including the word "Trump" were retweets, which ultimately means that these tweets were able to reach the highest number of users through the social network. Similarly, the tweets with the highest engagement for the Republicans included the word 'Democrats', closely followed by 'Biden'. This is consistent with the findings discussed above and further emphasises that attacking the opposition on Twitter is an effective way to expand reach and therefore increase support. This raises the question of whether or not politicians make this choice consciously, i.e. is attacking the opposition a strategic move that they know will lead to higher numbers of retweets and expand their online reach? This would be an interesting topic for further research, but would be hard to answer without speaking to politicians in person.
 
 Another interesting observation that we were able to make from these statistics was that the Democrats seem to have much higher user engagement with their tweets. However, we have only compared these statistics for the most frequently tweeted words from each party, which means we cannot rule out the possibility of a heavily skewed distribution of engagement in favour of more frequent words for the Democrats or less frequent words for the Republicans. Therefore, further research would be required to substantiate this observation.
 
-Our observations may also tell us something about the users of Twitter. Perpetuated hate speech and echo chambers have been an issue on Twitter for quite some time (Frenkel & Conger, 2022) and we expect that users will interact more with Tweets using words like "Trump", "Democrat", and "Biden" because, as previously mentioned, these three words would be used in a negative light and we expect that users are more likely to engage with negative Tweets as they are more controversialand possibly spark more debate. But we are not convined that this is a totally one-way street; Twitter's algorithms may also have something to do with the increased user engagement for tweets of this nature. 
+Our observations may also tell us something about the users of Twitter. Perpetuated hate speech and echo chambers have been an issue on Twitter for quite some time (Frenkel & Conger, 2022) and we expect that users will interact more with Tweets using words like "Trump", "Democrat", and "Biden" because, as previously mentioned, these three words would be used in a negative light and we expect that users are more likely to engage with negative Tweets as they are more controversial and possibly spark more debate. But we are not convinced that this is a totally one-way street; Twitter's algorithms may also have something to do with the increased user engagement for tweets of this nature. 
 
-So, is it the nature of Twitter and its algorithms which cause this perpectuated negativity, meaning that this tactic of attacking the opposition leads to higher user engagement? Is this why this may be considered a successful strategy for gaining support from the two main political parties in the US? Or is it perhaps that these politicians and the language they use are part of the cause of Twitter's problem? This may be an interesting topic for further research, however, for now, we have found that this approach as an efficient way for US politicians to expand their online reach on Twitter and, whether they are doing this conciously or not, it is one of the most frequent occurrences in their tweets.
+So, is it the nature of Twitter and its algorithms which cause this perpetuated negativity, meaning that this tactic of attacking the opposition leads to higher user engagement? Is this why this may be considered a successful strategy for gaining support from the two main political parties in the US? Or is it perhaps that these politicians and the language they use are part of the cause of Twitter's problem? This may be an interesting topic for further research, however, for now, we have found that this approach is an efficient way for US politicians to expand their online reach on Twitter and, whether they are doing this consciously or not, it is one of the most frequent occurrences in their tweets.
 
 ## Limitations & Technical Challenges
 
@@ -173,12 +169,12 @@ Lastly, we ran into a few technical, pre-processing errors involving the number 
 
 ## Conclusion
 
-Overall, our data illustrate that within political parties, Members of Congress frequently use words that align with their respective parties' political agendas. However, when they do deviate from this, it is to criticize the other political party. We found that this happens most during moments where the Democrats can criticize Republican leadership and vice versa and leads to increase user engagement. For this reason, we believe that attacking the opposition may be the best tactic to gain support from constituents. If we were to continue our investigation, we would be interested to investigate whether or not politicians are aware of this link, and how often they conciously adopt this strategy. This has also made us curious about the relationship between the nature of Twitter and of its users (e.g. US politicians, as in this case), in terms of which influences the other more strongly leading to this observed success of online negativity (like the chicken or the egg question), or whether it is a mutual influence. Additionally, we would also examine the distinctions, if any, between what politicians tweet online versus what they say in Congress itself.
+Overall, our data illustrate that within political parties, Members of Congress frequently use words that align with their respective parties' political agendas. However, when they do deviate from this, it is to criticise the other political party. We found that this happens most during moments where the Democrats can criticise Republican leadership and vice versa and leads to increased user engagement. For this reason, we believe that attacking the opposition may be the best tactic to gain support from constituents. If we were to continue our investigation, we would be interested to investigate whether or not politicians are aware of this link, and how often they consciously adopt this strategy. This has also made us curious about the relationship between the nature of Twitter and of its users (e.g. US politicians, as in this case), in terms of which influences the other more strongly leading to this observed success of online negativity (like the chicken or the egg question), or whether it is a mutual influence. Additionally, we would also examine the distinctions, if any, between what politicians tweet online versus what they say in Congress itself.
 
 ## Contributions
 
 **Maia:**
-Maia created the code to collect the Twitter dataset showing the 50 most commonly used words per Twitter handles and the code to create the data frames for the Republican and Democratic parties. She also wrote the Index, Abstract, Motivations, Aims, and Data Collection sections of the README.md, and did final edits and grammar checks. Lastly, she created the repository and webpage and added a theme.
+Maia created the code to collect the Twitter dataset showing the 50 most commonly used words per Twitter handle and the code to create the data frames for the Republican and Democratic parties. She also wrote the Index, Abstract, Motivations, Aims, and Data Collection sections of the README.md, and did final edits and grammar checks. Lastly, she created the repository and webpage and added a theme.
 
 **Amara:**
 Amara analysed the data, transforming it into multiple more easily usable data frames. She then created some more easily interpretable bar graphs, time series graphs and word clouds. She interpreted the data and drew conclusions based on our observations. She wrote the Motivations, Findings and Conclusion sections of the README.md.
