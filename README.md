@@ -3,7 +3,7 @@
 ## Index
 1. Abstract
 2. Motivations
-3. Key Questions and Hypotheses
+3. Aims
 4. Data Collection 
     - Data Set
     - Code Explanation
