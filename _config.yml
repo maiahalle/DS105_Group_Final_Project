@@ -14,3 +14,7 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 
 theme: cayman
+
+
+# title: [Twitter Birds of a Feather Flock Together: Analyzing American Legislator's Frequent Used Words in Tweets]
+# description: [This project explores words used in Tweets put out by members of the United States Congress. We aimed to explore whether there were any disparities between Republicans and Democrats in terms of words frequently used.]
