@@ -1,4 +1,4 @@
-#Twitter Birds of a Feather Flock Together: Analyzing American Legislator's Frequently Used Words
+# Twitter Birds of a Feather Flock Together: Analyzing American Legislator's Frequently Used Words
 
 <img width="376" alt="rep_elephant" src="https://user-images.githubusercontent.com/114494959/216384171-84558783-1b68-4549-a0c5-7c1505e14999.png"><img width="290" alt="dem_donkey" src="https://user-images.githubusercontent.com/114494959/216384242-ae17cd6e-c967-4da4-9eb5-67de1826069d.png">
 
