@@ -31,7 +31,7 @@ As a student studying the philosophy of language, Sarmad is interested in the wo
 
 Amara, who studies politics for half of her degree, believes that language is a powerful tool and that it's difficult to truly understand how much of an effect it has on people and their political opinions. However, people with high amounts of influence, like US politicians, may be aware of this power and therefore may choose their words in a way which will influence people towards their agendas on big platforms like Twitter. By analysing the language that different parties use the most over certain periods, and how this affects user engagement, we may gain an insight into the nature of politicians' tweets and how Twitter is used (or not used) as a political tool.
 
-In doing research for this project, we were surprised to learn that such an analysis had, to our knowledge, not been conducted yet. In contributing to this project, we hope to add to knowledge about political polarization in the US and grow awareness about the potentially salient role played by words, language, and Twitter in the current American political landscape. 
+In doing research for this project, we were surprised to learn that such an analysis had, to our knowledge, not been conducted yet. In contributing to this project, we hope to add to knowledge about political polarisation in the US and grow awareness about the potentially salient role played by words, language, and Twitter in the current American political landscape. 
 
 ## Aims
 
