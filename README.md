@@ -171,7 +171,7 @@ Our observations may also tell us something about the users of Twitter. Perpetua
 
 Our project has a few limitations and faced some technical challenges. 
 
-Firstly, to repilicate this code (specifically extract_tweets.py), data scientists would need elevated access to Twitter API, which they may not always have. We used elevated access to ensure we were able to access a statistically significant sample of tweets. To mitigate this to some degree, we ensured that our source code is fully available on our repository. 
+Firstly, to repilicate this code (specifically extract_tweets.py), data scientists would need elevated access to Twitter API, which they may not always have. We used elevated access to ensure we were able to access a statistically significant sample of tweets. Once one recieves elevated access from Twitter, all code used is replicable.
 
 Secondly, we ran into a few technical pre-processing errors involving the number of times tweets were retweeted or liked. We found that the number of likes and replies was identical, suggesting that one of them was incorrect. To verify this, we cross-referenced with actual tweets on Twitter (keeping in mind that the values will have likely changed since our data collection) and found that the figures for replies and retweets were accurate but figures for likes were inaccurate. We were unable to diagnose a solution in time for this project, and therefore excluded likes from our analysis. However, this did not prevent us from gaining various useful insights regarding user engagement that we highlighted above.
 
