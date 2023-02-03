@@ -40,7 +40,8 @@ Our first aim in this project was to see which words are most frequently used by
 ## Data Collection
 
 **Data Set:**
-We collected recent tweets from all of the current Congresspeople's Twitter accounts which amounted to a total of almost 3 million tweets. We got the list of Twitter handles from an Excel spreadsheet titled Congressional Twitter Accounts created by the [University of California San Diego (UCSD)](https://ucsd.libguides.com/congress_twitter) (Smith, 2022). Our data set consists of 223 Democrats (including 4 Delegates) and 215 Republicans (including 1 Delegate and the Resident Commissioner of Puerto Rico), and 3 vacant seats. 
+We collected recent tweets from all of the current Congresspeople's Twitter accounts, which amounted to a total of almost 3 million tweets, dating between February 2010 to December 2022. We got the list of Twitter handles from an Excel spreadsheet titled Congressional Twitter Accounts created by the [University of California San Diego (UCSD)](https://ucsd.libguides.com/congress_twitter) (Smith, 2022). Our data set consists of 223 Democrats (including 4 Delegates) and 215 Republicans (including 1 Delegate and the Resident Commissioner of Puerto Rico), and 3 vacant seats. 
+
 
 <img width="640" alt="Screen Shot 2023-01-04 at 8 22 27 PM" src="https://user-images.githubusercontent.com/117990566/210680386-51fec2fc-0a3b-4e0a-a43d-f653efc48b63.png">
 
