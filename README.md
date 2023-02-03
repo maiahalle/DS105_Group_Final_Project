@@ -158,7 +158,7 @@ So, is it the nature of Twitter and its algorithms which cause this perpetuated 
 
 Our project has a few limitations and faced some technical challenges. 
 
-Firstly, to replicate this code (specifically extract_tweets.py), data scientists would need elevated access to Twitter API, which they may not always have. We used elevated access to ensure we were able to access a statistically significant sample of tweets. Once one receives elevated access from Twitter, all code used is replicable.
+Firstly, to replicate this code (specifically extract_tweets.py), data scientists would need elevated access to Twitter API, which they may not always have. We used elevated access to ensure we were able to access a statistically significant sample of tweets. Once one receives elevated access from Twitter, all code used is replicable. However, on the Github repository, there is a file called csv_cache which includes csv files of all legislator's collected tweets. With these csv files, it is possible for someone to replicate my code without using the Twitter API.
 
 Secondly, we found that Spacy was not completely successful in grouping similar words as one, for example 'nation' and 'national'. However, after consideration, we realised that this is not an issue as words like 'nation' and 'national' are actually used in completely different contexts; one being a noun referring to the actual country and the other being an adjective which could be describing any other noun related to the country as a whole. We concluded that the Spacy software was right not to group these kinds of words together and that this would not significantly affect our findings.
 
