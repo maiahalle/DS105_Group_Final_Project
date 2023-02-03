@@ -13,7 +13,7 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 
-theme: cayman
+theme: Cayman
 
 
 # title: [Twitter Birds of a Feather Flock Together: Analyzing American Legislator's Frequent Used Words in Tweets]
