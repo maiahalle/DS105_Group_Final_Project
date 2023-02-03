@@ -35,7 +35,7 @@ In doing research for this project, we were surprised to learn that such an anal
 
 ## Aims
 
-Our first aim in this project is to see if Democratic and Republican Members of Congress use the same words. Secondly, we wanted to see which of the most frequent words lead to increased user engagement. 
+Our first aim in this project was to see if Democratic and Republican Members of Congress used the same words frequently. Secondly, we wanted to see when and why some of these words were frequenlty used. Laslty we wanted to konw which of the most frequent words lead to increased user engagement. 
 
 ## Data Collection
 
@@ -56,7 +56,7 @@ One of the initial obstacles we had to overcome for this project was the limits 
 
 Second, we converted JSON to a data frame:
 
-We had to extract the necessary data from the Twitter JSON response by creating a name value pair dictionary.
+We had to extract the necessary data from the Twitter JSON response by creating a name-value pair dictionary.
 
 <pre><code>def get_tweet_dict(tweet, handle, name):
     metrics = tweet["public_metrics"]
@@ -126,11 +126,11 @@ Because the CSV files were too large to upload to GitHub, we uploaded them onto 
 
 
 <img width="582" alt="image" src="https://user-images.githubusercontent.com/114494959/216386913-081f4a71-b7c6-4762-864a-b0e22f7f0704.png">
-[democrats_top_50_bar_graph.pdf](https://github.com/maiahalle/DS105_Group_Final_Project/files/10571261/democrats_top_50_bar_graph.pdf)
+pdf version: https://github.com/maiahalle/DS105_Group_Final_Project/files/10571261/democrats_top_50_bar_graph.pdf
 
 
 <img width="602" alt="image" src="https://user-images.githubusercontent.com/114494959/216387063-195d639c-e148-4e7a-b32a-262bb406c98e.png">
-[republicans_top_50_bar_graph.pdf](https://github.com/maiahalle/DS105_Group_Final_Project/files/10571262/republicans_top_50_bar_graph.pdf)
+pdf version: https://github.com/maiahalle/DS105_Group_Final_Project/files/10571262/republicans_top_50_bar_graph.pdf
 
 
 ![top_democrat_words_exclusive](https://user-images.githubusercontent.com/114494959/216366716-e744f628-38ca-46a3-98c7-ea94a0722a66.png)
@@ -141,9 +141,9 @@ To answer our first question "Do Democrats and Republicans use the same words?" 
 
 It makes sense that both parties frequently tweet words that align with their party's ideology since Members of Congress use Twitter as a platform to spread their political ideology. While the findings from the above bar graphs above seem obvious, the data is significant because it illustrates that within these two parties, Members of Congress are politically aligned, but not aligned with legislators across the aisle. 
 
-Furthermore, the graphs above are important because they give us an insight into the parties' approaches to gaining support. One thing that caught our eyes when looking at these bar graphs is that "Biden" is a very frequently used word by the Republicans, and "Trump" is frequently used by the Democrats, rather than vice versa. This raised the question "Do legislators use language as a way to gain more support from constituents on Twitter?". From the data we collected, we would argue yes. It is safe to assume that each side is not using the name of the other's leader in a positive light, so we can only gather that each party adopts the tactic of tearing down the other side in order to gain public support. This is not a completely even split: "Biden" was the number one most frequently used word exclusively by the Republicans, whereas 'Trump' was only eighth most for the Democrats. This may show that, overall, the Republicans have spent more time (or words) on Twitter addressing the opposition than they have spent discussing any singular issue or policy central to their party values. This suggests that Republican politicians are more inclined to adopt this method. Nonetheless, both parties generally seem to have engaged in this strategy.
+Furthermore, the graphs above are important because they give us an insight into the parties' approaches to gaining support. One thing that caught our eyes when looking at these bar graphs is that "Biden" is a very frequently used word by the Republicans, and "Trump" is frequently used by the Democrats, rather than vice versa. This raised the question "Do legislators use language as a way to gain more support from constituents on Twitter?". From the data we collected, we would argue yes. It is safe to assume that each side is not using the name of the other's leader in a positive light, so we can only gather that each party adopts the tactic of tearing down the other side to gain public support. This is not a completely even split: "Biden" was the number one most frequently used word exclusively by the Republicans, whereas 'Trump' was only eighth most for the Democrats. This may show that, overall, the Republicans have spent more time (or words) on Twitter addressing the opposition than they have spent discussing any singular issue or policy central to their party values. This suggests that Republican politicians are more inclined to adopt this method. Nonetheless, both parties generally seem to have engaged in this strategy.
 
-In order to further explore this tactic of politicians tearing down their opposition and answer our question, we created time series plots showing the frequency of the use of the word 'Biden' for Republicans and 'Trump' for Democrats in 2022. See below:
+To further explore this tactic of politicians tearing down their opposition and answer our question, we created time series plots showing the frequency of the use of the word 'Biden' for Republicans and 'Trump' for Democrats in 2022. See below:
 
 **Below: Figure 1c: The frequency of the use of the word 'Trump' by Democrats over time**
 
@@ -161,9 +161,9 @@ Regardless, to find further evidence for our case, we examined how the usage of 
 
 ![reps_stacked_engagement](https://user-images.githubusercontent.com/114494959/216368525-eb8f6f71-5d11-430a-98d2-3aafce7cdf9f.png)
 
-As you can see in the figures above, for Democrats, tweets that included the word 'Trump' had a far higher level of user engagement than any other most frequent words exclusive to the Democrats. This is consistent with the findings discussed above and further proves that politicians choose to attack the opposition on Twitter in order to expand their reach and gain support. The vast majority of engagement with the tweets from Democrats including the word "Trump" were retweets, which ultimately means that these tweets were able to reach the highest number of users through the social network. Similarly, the tweets with the highest engagement for the Republicans included the word 'Democrats', closely followed by 'Biden'. 
+As you can see in the figures above, for Democrats, tweets that included the word 'Trump' had a far higher level of user engagement than any other most frequent words exclusive to the Democrats. This is consistent with the findings discussed above and further proves that politicians choose to attack the opposition on Twitter to expand their reach and gain support. The vast majority of engagement with the tweets from Democrats including the word "Trump" were retweets, which ultimately means that these tweets were able to reach the highest number of users through the social network. Similarly, the tweets with the highest engagement for the Republicans included the word 'Democrats', closely followed by 'Biden'. 
 
-Another interesting observation that we were able to make from these statistics was that the Democrats seem to have much higher user engagement with their tweets. However, we have only compared these statistics for the most frequently tweeted words from each party, which means we cannot rule out the possibility of a heavily skewed distribution of engagement in favour of more frequent words for the Democrats or less frequent words for the Republicans. Therefore, further research would be required in order to substantiate this observation.
+Another interesting observation that we were able to make from these statistics was that the Democrats seem to have much higher user engagement with their tweets. However, we have only compared these statistics for the most frequently tweeted words from each party, which means we cannot rule out the possibility of a heavily skewed distribution of engagement in favour of more frequent words for the Democrats or less frequent words for the Republicans. Therefore, further research would be required to substantiate this observation.
 
 Our observations may also tell us something about the users of Twitter. Perpetuated hate speech and echo chambers have been an issue on Twitter for quite some time (Frenkel & Conger, 2022). Is it the nature of Twitter and its algorithms which cause this, meaning that this tactic of attacking the opposition leads to higher user engagement? Is that why this may be considered a successful strategy for gaining support from the two main political parties in the US? Or is it perhaps that these politicians are part of the cause of Twitter's problem? This may be an interesting topic for further research, however, for now, we have found that US politicians generally see this approach as an efficient enough way to rally support for their party that it is one of the most frequent occurrences in their tweets.
 
@@ -171,21 +171,21 @@ Our observations may also tell us something about the users of Twitter. Perpetua
 
 Our project has a few limitations and faced some technical challenges. 
 
-Firstly, in order to be replicable, data scientists would need elevated access to Twitter API, which they may not always have. We used elevated access to ensure we were able to access a statistically significant and meaningful sample of tweets. To mitigate this to some degree, we ensured that our source code is fully available on our repository. 
+Firstly, to repilicate this code (specifically extract_tweets.py), data scientists would need elevated access to Twitter API, which they may not always have. We used elevated access to ensure we were able to access a statistically significant sample of tweets. To mitigate this to some degree, we ensured that our source code is fully available on our repository. 
 
-Secondly, we ran into a few technical pre-processing errors involving the number of times tweets were retweeted or liked. We found that the number of likes and replies were identical, suggesting that one of them was incorrect. To verify this, we cross-referenced with actual tweets on Twitter (keeping in mind that the values will have likely changed since our data collection) and found that the figures for replies and retweets were accurate but figures for likes were inaccurate. We were unable to diagnose a solution in time for this project, and therefore excluded likes from our analysis. However, this did not prevent us from gaining various useful insights regarding user engagement that we highlighted above.
+Secondly, we ran into a few technical pre-processing errors involving the number of times tweets were retweeted or liked. We found that the number of likes and replies was identical, suggesting that one of them was incorrect. To verify this, we cross-referenced with actual tweets on Twitter (keeping in mind that the values will have likely changed since our data collection) and found that the figures for replies and retweets were accurate but figures for likes were inaccurate. We were unable to diagnose a solution in time for this project, and therefore excluded likes from our analysis. However, this did not prevent us from gaining various useful insights regarding user engagement that we highlighted above.
 
 ## Conclusion
 
-Overall, we saw considerable disparities between the language used by the Democrats as opposed to the language used by the Republicans. Many of our observations aligned with our initial hypotheses concerning the ideologies that each party would be expressing through their language and we also gained insight into the strategic side of politicians' tweets. Politicians seem to adopt the method of attacking the opposition on Twitter in order to increase engagement, such as retweets, and reach more users to spread their ideas and gain support. If we were to continue our investigation, we would be interested to investigate the relationship between the nature of Twitter and the nature of its users (e.g. US politicians, as in this case), in terms of which influences the other more stongly (like the chicken or the egg question) or whether it is a mutual influence. Additionally, we would also examine the distinctions, if any, between what politicians tweet out versus what they say in Congress itself.
+Overall, we saw considerable disparities between the language used by the Democrats as opposed to the language used by the Republicans. Many of our observations aligned with our initial hypotheses concerning the ideologies that each party would be expressed through their language and we also gained insight into the strategic side of politicians' tweets. Politicians seem to adopt the method of attacking the opposition on Twitter to increase engagement, such as retweets, and reach more users to spread their ideas and gain support. If we were to continue our investigation, we would be interested to investigate the relationship between the nature of Twitter and the nature of its users (e.g. US politicians, as in this case), in terms of which influences the other more strongly (like the chicken or the egg question) or whether it is a mutual influence. Additionally, we would also examine the distinctions, if any, between what politicians tweet out versus what they say in Congress itself.
 
 ## Contributions
 
 **Maia:**
-Maia created the code to collect the Twitter dataset showing the 50 most common used words per Twitter handles and the code to create the dataframes for the Republican and Democratic Party. She also wrote the Index, Abstract, Motivations, Aims, and Data Collection sections of the README.md, and did final edits and grammar checks. Lastly, she created the repository, webpage, and added a theme.
+Maia created the code to collect the Twitter dataset showing the 50 most commonly used words per Twitter handles and the code to create the data frames for the Republican and Democratic parties. She also wrote the Index, Abstract, Motivations, Aims, and Data Collection sections of the README.md, and did final edits and grammar checks. Lastly, she created the repository and webpage and added a theme.
 
 **Amara:**
-Amara analysed the data, transforming it into multiple more easily useable dataframes. She then created some more easily interpretable bar graphs, time series graphs and wordclouds. She interpreted the data and drew conclusions based on our observations. She wrote the Motivations, Findings and Conclusion sections of the README.md.
+Amara analysed the data, transforming it into multiple more easily useable data frames. She then created some more easily interpretable bar graphs, time series graphs and word clouds. She interpreted the data and drew conclusions based on our observations. She wrote the Motivations, Findings and Conclusion sections of the README.md.
 
 **Sarmad:**
 Sarmad wrote the Motivations, Limitations and Bibliography sections of the README.md, while also copy-editing the rest of it to ensure cohesiveness and consistency. He also did empirical research for all the substantive claims made about the Democrats and Republicans throughout the README.md. Lastly, he converted the README.md to an Index file for webpage creation.
@@ -202,15 +202,9 @@ Frenkel, S. and Conger, K. (2022) Hate Speech’s Rise on Twitter Is Unprecedent
 
 Furhmann, R. (2022) Republican and Democratic approaches to regulating the economy, Investopedia. Investopedia. Available at: https://www.investopedia.com/ask/answers/regulating-economy.asp (Accessed: January 27, 2023). 
 
-Gambino, L. and Greve, J.E. (2022) Democrats try to flip narrative amid barrage of 'soft on Crime' attack ads, The Guardian. Guardian News and Media. Available at: https://www.theguardian.com/us-news/2022/oct/27/republicans-crime-midterm-election (Accessed: January 21, 2023). 
-
 Horowitz, J.M. (2020) Wide partisan gaps in U.S. over how far the country has come on gender equality, Pew Research Center's Social &amp; Demographic Trends Project. Pew Research Center. Available at: https://www.pewresearch.org/social-trends/2017/10/18/wide-partisan-gaps-in-u-s-over-how-far-the-country-has-come-on-gender-equality/ (Accessed: January 27, 2023). 
 
 Jeong, G.-H. and Lowry, W. (2019) “The polarisation of energy policy in the US congress,” Journal of Public Policy, 41(1), pp. 17–41. Available at: https://doi.org/10.1017/s0143814x19000175. 
-
-Jones, B. (2020) Democrats far more likely than Republicans to see discrimination against blacks, not whites, Pew Research Center. Pew Research Center. Available at: https://www.pewresearch.org/fact-tank/2019/11/01/democrats-far-more-likely-than-republicans-to-see-discrimination-against-blacks-not-whites/ (Accessed: January 21, 2023). 
-
-Milroy, L. and Margrain, S. (1980) “Vernacular language loyalty and Social Network,” Language in Society, 9(1), pp. 43–70. Available at: https://doi.org/10.1017/s0047404500007788. 
 
 Morgan, D. (2022) Republicans target Biden for blame over Putin's Ukraine invasion, Reuters. Thomson Reuters. Available at: https://www.reuters.com/world/us/republicans-target-biden-blame-over-putins-ukraine-invasion-2022-02-24/ (Accessed: February 2, 2023). 
 
@@ -218,4 +212,3 @@ Oliphant, J.B. and Cerda, A. (2022) Republicans and Democrats have different top
 
 Smith, K.L. (2022) Libguides: Congressional twitter accounts: Home, Home - Congressional Twitter Accounts - LibGuides at University of California San Diego. University of California San Diego. Available at: https://ucsd.libguides.com/congress_twitter (Accessed: January 21, 2023). 
 
-Van Swol, L.M. and Kane, A.A. (2018) “Language and group processes: An integrative, interdisciplinary review,” Small Group Research, 50(1), pp. 3–38. Available at: https://doi.org/10.1177/1046496418785019. 
