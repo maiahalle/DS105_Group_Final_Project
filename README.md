@@ -138,17 +138,13 @@ Furthermore, one thing that caught our eyes when looking at these bar graphs is 
 
 To further explore this tactic of politicians tearing down their opposition, we created time series plots showing the frequency of the use of the word 'Biden' for Republicans and 'Trump' for Democrats in 2022. See below:
 
-![dem_trump_2022](https://user-images.githubusercontent.com/114494959/216365937-a34b2ea1-226c-4940-8064-0251c61b6860.png)
-
-![rep_biden_2022](https://user-images.githubusercontent.com/114494959/216366206-661b5ff6-0206-4ba6-814f-56f0da20ee6e.png)
+![dem_trump_2022](https://user-images.githubusercontent.com/114494959/216365937-a34b2ea1-226c-4940-8064-0251c61b6860.png)![rep_biden_2022](https://user-images.githubusercontent.com/114494959/216366206-661b5ff6-0206-4ba6-814f-56f0da20ee6e.png)
 
 We were interested to see whether temporal factors play a role in the usage of words by legislators. We observed that the usage of the word "Biden" spiked between February 20th and 28th 2022 for Republicans. We conducted research into why this may be and found that Biden was under considerable criticism by Republicans in the US Congress for his handling of the Ukrainian crisis (Morgan, 2022). Similarly, we found that Democrats were more likely to use the word "Trump" in June 2022. We conducted similar research into this and found that June was when the hearings for the January 6th Capitol Attack began, putting Trump under significant criticism as a threat to US democracy (Breuninger, 2022). This corroborates our theory that politicians may choose Twitter as a method of attacking the opposition. The time series illustrates that when an opportunity arises (i.e. the opposition makes a mistake) there is no hesitation in publicising this on Twitter with a possible aim to maximise reach. This does raise interesting questions for future research that may build on ours. For example, do legislators echo what they say in Congress on their Twitter? What is the distinction between what Members of Congress say through an official versus through an unofficial lens? 
 
 Regardless, to find further evidence for our case, we examined how the usage of certain words affected user engagement on Twitter.
 
-![dems_stacked_engagement](https://user-images.githubusercontent.com/114494959/216368469-6dd0ed3d-44cf-4644-8382-0c5347c3f560.png)
-
-![reps_stacked_engagement](https://user-images.githubusercontent.com/114494959/216368525-eb8f6f71-5d11-430a-98d2-3aafce7cdf9f.png)
+![dems_stacked_engagement](https://user-images.githubusercontent.com/114494959/216368469-6dd0ed3d-44cf-4644-8382-0c5347c3f560.png)![reps_stacked_engagement](https://user-images.githubusercontent.com/114494959/216368525-eb8f6f71-5d11-430a-98d2-3aafce7cdf9f.png)
 
 As you can see in the figures above, for Democrats, tweets that included the word 'Trump' had a far higher level of user engagement than any other most frequent words exclusive to the Democrats. The vast majority of engagement with the tweets from Democrats including the word "Trump" were retweets, which ultimately means that these tweets were able to reach the highest number of users through the social network. Similarly, the tweets with the highest engagement for the Republicans included the word 'Democrats', closely followed by 'Biden'. This is consistent with the findings discussed above and further emphasises that attacking the opposition on Twitter is an effective way to expand reach and therefore increase support. This raises the question of whether or not politicians make this choice consciously, i.e. is attacking the opposition a strategic move that they know will lead to higher numbers of retweets and expand their online reach? This would be an interesting topic for further research, but would be hard to answer without speaking to politicians in person.
 
